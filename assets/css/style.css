@@ -25,6 +25,17 @@ header h1 {
   margin: 0;
 }
 
+.header-div{
+  position: relative;
+  top: -20px;
+  right: 40px;
+  width: 350px;
+  height: 65px;
+  border: 3px solid #73AD21;
+  justify-items: center;
+
+}
+
 header a {
   color: #39a6b2;
 }
@@ -50,23 +61,55 @@ header nav ul li a {
 .sectionFlex {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: wrap;*/
   margin: 10px;
 }
 
 .row-content {
   border-left: solid;
   color: #39a6b2;
-  min-height:20px;
+  min-height: 20px;
   margin: 0 0 0 15px;
   padding-left: 10px;
+  justify-content: space-between;
 }
 
-.row-title{
+.row-title {
   width: 12.5%;
-  font-size:40px;
+  font-size: 40px;
   text-align: right;
   padding-right: 2.5px;
-  min-width:fit-content;
+  min-width: fit-content;
+}
+
+.work-row-content {
+  min-height: 150px;
+  margin: 0 2.5px 0 15px;
+  padding-left: 10px;
+  border-style: solid;
+  border: 2px;
+  background-color: blue;
+  width: 1600px;
+  padding-top: 10px;
+ 
+}
+
+.work-div {
+  position: relative;
+  top: 30px;
+  right: 10px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+.work-small-row-content {
+  
+  min-height: 150px;
+  margin: 0 0 0 15px;
+  padding-left: 10px;
+  border-style: solid;
+  border: 2px;
+  background-color: blue;
+  width: 50%;
 }
 

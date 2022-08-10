@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -25,15 +25,15 @@ header h1 {
   margin: 0;
 }
 
-.header-div{
+.header-div {
   position: relative;
   top: -20px;
   right: 40px;
   width: 350px;
   height: 65px;
-  border: 3px solid #73AD21;
+  border: 3px solid bisque;
   justify-items: center;
-
+  background-color: bisque;
 }
 
 header a {
@@ -58,10 +58,40 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+.hero {
+  padding: 120px;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: 72%;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero * {
+  flex: 1;
+}
+
+.hero-div-invisible {
+  flex-grow: 7;
+}
+
+.hero-div {
+  position: relative;
+  justify-content: right;
+  height: 75px;
+  border: 3px solid bisque;
+  background-color: bisque;
+  flex-grow: 3;
+}
+
 .sectionFlex {
   display: flex;
   flex-direction: row;
   margin: 10px;
+}
+
+.sectionFlex * {
+  flex: 1;
 }
 
 .row-content {
@@ -71,6 +101,8 @@ header nav ul li a {
   margin: 0 0 0 15px;
   padding-left: 10px;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-grow: 8;
 }
 
 .row-title {
@@ -78,8 +110,10 @@ header nav ul li a {
   font-size: 40px;
   text-align: right;
   padding-right: 2.5px;
-  min-width: fit-content;
+  flex-grow: 2;
+  min-width: 100px;
 }
+
 
 .work-row-content {
   min-height: 150px;
@@ -88,9 +122,7 @@ header nav ul li a {
   border-style: solid;
   border: 2px;
   background-color: blue;
-  width: 1600px;
   padding-top: 10px;
- 
 }
 
 .work-div {
@@ -103,13 +135,15 @@ header nav ul li a {
 }
 
 .work-small-row-content {
-  
   min-height: 150px;
   margin: 0 0 0 15px;
   padding-left: 10px;
   border-style: solid;
   border: 2px;
   background-color: blue;
-  width: 50%;
 }
 
+.sectionFlexFooterContent {
+  justify-content: space-between;
+  align-items: center;
+}

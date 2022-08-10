@@ -7,7 +7,7 @@
 body {
 
   color: #a12c2c;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Garamond, Garamond, san-serif;
 }
 
 header {
@@ -23,6 +23,7 @@ header h1 {
   font-size: 36px;
   color: #39a6b2;
   margin: 0;
+  font-style: bold;
 }
 
 .header-div {
@@ -143,7 +144,17 @@ header nav ul li a {
   background-color: blue;
 }
 
+.sectionFlexFooter {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  flex-grow: 1;
+}
+
 .sectionFlexFooterContent {
+
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+
 }

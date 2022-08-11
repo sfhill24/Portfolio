@@ -6,8 +6,8 @@
 
 body {
 
-  color: #a12c2c;
-  font-family: Garamond, Garamond, san-serif;
+  color: brown;
+  font-family: Garamond, Garamond, serif;
 }
 
 header {
@@ -32,9 +32,9 @@ header h1 {
   right: 40px;
   width: 350px;
   height: 65px;
-  border: 3px solid bisque;
+  border: 3px solid blanchedalmond;
   justify-items: center;
-  background-color: bisque;
+  background-color: blanchedalmond;
 }
 
 header a {
@@ -80,8 +80,8 @@ header nav ul li a {
   position: relative;
   justify-content: right;
   height: 75px;
-  border: 3px solid bisque;
-  background-color: bisque;
+  border: 3px solid blanchedalmond;
+  background-color: blanchedalmond;
   flex-grow: 3;
 }
 
@@ -104,6 +104,7 @@ header nav ul li a {
   justify-content: space-between;
   flex-wrap: wrap;
   flex-grow: 8;
+  font-size: larger;
 }
 
 .row-title {
@@ -115,14 +116,13 @@ header nav ul li a {
   min-width: 100px;
 }
 
-
 .work-row-content {
   min-height: 150px;
   margin: 0 2.5px 0 15px;
   padding-left: 10px;
   border-style: solid;
   border: 2px;
-  background-color: blue;
+  background-color: blanchedalmond;
   padding-top: 10px;
 }
 
@@ -141,7 +141,7 @@ header nav ul li a {
   padding-left: 10px;
   border-style: solid;
   border: 2px;
-  background-color: blue;
+  background-color: blanchedalmond;
 }
 
 .sectionFlexFooter {
@@ -152,9 +152,8 @@ header nav ul li a {
 }
 
 .sectionFlexFooterContent {
-
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
+  font-size: larger;
 }

@@ -30,7 +30,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Website
 https://sfhill24.github.io/Portfolio/
 
-![image](https://user-images.githubusercontent.com/49098706/189211696-6975193b-3ae7-46d8-b9a8-67965cf06d06.png)
+
 
 
 ## Contribution

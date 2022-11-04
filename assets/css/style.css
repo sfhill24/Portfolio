@@ -10,6 +10,7 @@ body {
   font-family: Garamond, Garamond, serif;
 }
 
+/* Header styling*/
 header {
   padding: 20px 35px;
   background-color: #032e33;
@@ -59,6 +60,7 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+/* Hero styling*/
 .hero {
   padding: 120px;
   background-image: url("../images/hero-bg.jpg");
@@ -84,6 +86,7 @@ header nav ul li a {
   flex-grow: 3;
 }
 
+/* Main row styling*/
 .sectionFlex {
   display: flex;
   flex-direction: row;
@@ -116,6 +119,7 @@ header nav ul li a {
   min-width: 100px;
 }
 
+/* Work row styling*/
 .work-row-content {
   min-height: 150px;
   margin: 0 2.5px 0 15px;
@@ -160,7 +164,6 @@ header nav ul li a {
 }
 
 
-
 @media screen and (max-width: 1200px) {
   .sectionFlexFooter {
     flex-wrap: wrap;
@@ -194,6 +197,7 @@ header nav ul li a {
   }
 }
 
+/* Sports Tracker styling*/
 .sports-tracker {
   background-image: url("../images/Sports-Tracker.png");
   background-position: center;
@@ -201,6 +205,7 @@ header nav ul li a {
 
 }
 
+/* Run Buddy styling*/
 .run-buddy {
   background-image: url("../images/Run\ Buddy.jpg");
   background-position: center;

@@ -217,3 +217,9 @@ header nav ul li a {
     background-color: orange;
   }
   
+  .flashaholic {
+    background-image: url("../images/Flashaholic\ Website.png");
+    background-position: center;
+    background-size: cover;
+  
+  }
